@@ -15,7 +15,13 @@ class App extends Component {
       chosenPhoto: '',
       currentPage: 'landingPage',
       recipient: '',
-      noun: ''
+      recipientName: '',
+      usersName: '',
+      noun: '',
+      adjective: '',
+      verb: '',
+      petName: '',
+      title: ''    
     }
   }
 
@@ -38,19 +44,54 @@ class App extends Component {
     })
   }
 
-  handleChangeRecipient = (person) => {
+  handleRecipient = (person) => {
     this.setState({
       recipient: person
     })
   }
 
-  handleChangeNoun = (event) => {
+  handleRecipientName = (event) => {
+    this.setState({
+      recipientName: event.target.value
+    })
+  }
+
+  handleNoun = (event) => {
     this.setState({
       noun: event.target.value
     })
   }
 
-  
+  handleAdjective = (event) => {
+    this.setState({
+      adjective: event.target.value
+    })
+  }
+
+  handleVerb = (event) => {
+    this.setState({
+      verb: event.target.value
+    })
+  }
+
+  handlePetName = (event) => {
+    this.setState({
+      petName: event.target.value
+    })
+  }
+
+  handleTitle = (event) => {
+    this.setState({
+      title: event.target.value
+    })
+  }
+
+  handleUsersName = (event) => {
+    this.setState({
+      usersName: event.target.value
+    })
+  }
+
 
   render() {
     return (
@@ -63,8 +104,14 @@ class App extends Component {
         /> : null }  
         { this.state.currentPage === 'getTextPage' ? <GetTextPage 
         handleNewPage={this.handleNewPage}
-        handleChangeNoun={this.handleChangeNoun}
-        handleChangeRecipient={this.handleChangeRecipient}
+        handleNoun={this.handleNoun}
+        handleRecipient={this.handleRecipient}
+        handleRecipientName={this.handleRecipientName}
+        handleAdjective={this.handleAdjective}
+        handleVerb={this.handleVerb}
+        handlePetName={this.handlePetName}
+        handleTitle={this.handleTitle}
+        handleUsersName={this.handleUsersName}
         /> : null }
         {this.state.currentPage === 'displayPostCardPage' ? <DisplayPostCardPage 
         handleNewPage={this.handleNewPage}

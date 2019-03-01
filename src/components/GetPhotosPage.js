@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import axios from 'axios';
 
 
-
-
 const apiKey = 'Client-ID 35b099672297de16a0daab970e196de3980e769efd3fffd4f2b18b262ce57705';
 
 class GetPhotosPage extends Component {
@@ -44,9 +42,6 @@ class GetPhotosPage extends Component {
 
   getPhotoOptions=(event)=>{
     event.preventDefault();
-    this.setState({
-      query: event.target.value
-    })
     axios({
       url: 'https://api.unsplash.com/search/photos',
       method: 'GET',
@@ -86,7 +81,7 @@ class GetPhotosPage extends Component {
             <h2>Select a photo below or search for an image of your choice.</h2>
 
             <form action='submit' onSubmit={this.getPhotoOptions}>
-              <input type='text' onChange={this.handleChange} value={this.state.query} required/>
+              <input type='text' onChange={this.handleChange} required/>
               <input type='submit'/>
             </form>
 
@@ -115,6 +110,3 @@ class GetPhotosPage extends Component {
 }
 
 export default GetPhotosPage;
-
-
-{/* <button className="nextPage" onClick={() => this.props.handleNewPage("getTextPage")} >NextPage</button> */}

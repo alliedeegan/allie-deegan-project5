@@ -9,7 +9,6 @@ class LandingPage extends Component {
           <div className='landingPage__PostCard--Front'>
             <h1>Landing Post Card</h1>
             <img src='' alt=''/>
-            {/* have background image on div? */}
           </div>
           <div className='landingPage__PostCard--Back'>
             <img src='' alt=''/>

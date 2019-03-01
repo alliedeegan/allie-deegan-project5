@@ -3,9 +3,14 @@ import React, { Component } from 'react';
 class FamilyTemplate extends Component {
     render(){
         return(
-            <div className='familyTemplate'>
-                <h2>My family member is {this.props.passedState.noun}</h2>
+            <div className='templateText'>
+                <p className='greeting'>Dear Family,</p>
+
+                <p>I miss all of you except {this.props.passedState.name}!</p>
+                <p>Best wishes, {this.props.passedState.usersName}</p>
             </div>
         )
     }
 }
+
+export default FamilyTemplate;
