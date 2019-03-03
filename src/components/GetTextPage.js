@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './GetTextPage.css';
 
 class GetTextPage extends Component {
   constructor() {
@@ -12,21 +13,23 @@ class GetTextPage extends Component {
       <div className='getTextPage'>
         <div className='wrapper'>
           <div className='getTextPage__Header'>
-            <h2>Message writing time!</h2>
-            <h3>Fill in the info below to generate your postcard message.</h3>
+            <h2>The write stuff!</h2>
+            <h3>Finding the right words is hard. Fill out this form and we'll take care of the rest!</h3>
           </div>
 
           <div className='getTextPage__Form'>
             <form action='submit' onSubmit={() => this.props.handleNewPage('displayPostCardPage')}>
-    
-              <p>Who is the recipient?</p>
-              <label htmlFor='family'>Family</label>
-              <input type='radio' id='family' name='recipient' value='family' onChange={() => this.props.handleRecipient('family')} required/>
-              <label htmlFor='lover'>Lover</label>
-              <input type='radio' id='lover' name='recipient' value='lover' onChange={() => this.props.handleRecipient('lover')}/>
-              <label htmlFor='enemy'>Enemy</label>
-              <input type='radio' id='enemy' name='recipient' value='enemy' onChange={() => this.props.handleRecipient('enemy')}/>
-              
+
+              <div className="getTextPage__Form--Radio">
+                <p>Who is the recipient?</p>
+                <label htmlFor='family'>Family</label>
+                <input type='radio' id='family' name='recipient' value='family' onChange={() => this.props.handleRecipient('family')} required/>
+                <label htmlFor='lover'>Lover</label>
+                <input type='radio' id='lover' name='recipient' value='lover' onChange={() => this.props.handleRecipient('lover')}/>
+                <label htmlFor='enemy'>Enemy</label>
+                <input type='radio' id='enemy' name='recipient' value='enemy' onChange={() => this.props.handleRecipient('enemy')}/>
+              </div>
+
               <label htmlFor='recipientName'>enter the <span>recipient's name</span></label>
               <input type='text' id='recipientName' placeholder='Zoe, Jenny, Balthazar The Terrible, etc... ' onChange={this.props.handleRecipientName} value={this.props.recipientName} required/>
 

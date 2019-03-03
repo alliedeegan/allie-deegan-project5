@@ -1,0 +1,19 @@
+.getTextPage__Header {
+    text-align: center;
+}
+
+.getTextPage__Form {
+    margin: 0 auto;
+    border: 1px solid yellowgreen;
+    width: 50%;
+}
+
+
+/* .getTextPage label {
+    display: block;
+} */
+
+.getTextPage input[type='text']{
+    width: 100%;
+    display: block;
+}
