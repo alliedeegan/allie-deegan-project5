@@ -91,6 +91,7 @@
     padding: 2px 5px;
     background: #f7f0f0;
     margin-right: 10px;
+    width: 25%;
 }
 
 .getPhotosPage input[type='submit'] {
@@ -99,6 +100,7 @@
     background: #ef6461;
     padding: 2px 15px;
     color: #f7f0f0;
+    transition: all 0.5s;
 }
 
 .getPhotosPage input[type='text']:focus {
@@ -108,4 +110,44 @@
 .getPhotosPage input[type='submit']:focus,
 .getPhotosPage input[type='submit']:hover {
    background: #5bd8f7;
+}
+
+@media (max-width: 1350px) {
+    .getPhotosPage__Photos {
+        justify-content: space-around;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1140px) {
+    .getPhotosPage__Photos {
+        width: 80%;
+    }
+    .getPhotosPage input[type='text'] {
+        width: 30%;
+    }
+}
+
+@media (max-width: 900px) {
+    .getPhotosPage__Photos {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .getPhotosPage input[type='text'] {
+        width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    .getPhotosPage h2 {
+        font-size: 2rem;
+    }
+    .getPhotosPage h3 {
+        font-size: 0.8rem;
+    }
+    .getPhotosPage input[type='text'] {
+        width: 60%;
+    }
 }

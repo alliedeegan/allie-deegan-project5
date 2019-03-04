@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import FamilyTemplate from './FamilyTemplate.js';
 import LoverTemplate from './LoverTemplate.js';
 import EnemyTemplate from './EnemyTemplate.js';
+import './DisplayPostCardPage.css';
 
 class DisplayPostCardPage extends Component {
     render() {

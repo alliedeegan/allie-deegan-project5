@@ -26,9 +26,7 @@ img {
     display: block;
 }
 
-
 /* Global Font Styles */
-
 
 h1 {
     font-size: 6rem;
@@ -39,9 +37,7 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 5px;
     top: 40%;
-
     font-family: 'Bungee', cursive;
-
 }
 
 p {

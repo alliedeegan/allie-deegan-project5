@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
 import './LandingPage.css';
-import mountains from '../assets/bailey-zindel-396398-unsplash.jpg'
-import postCardBack from '../assets/postCardBackQuick.jpg'
 import mountains2 from '../assets/nitish-meena-37746-unsplash.jpg'
 
 class LandingPage extends Component {
   render(){
-    // const { handleNewPage } = this.props;
     return(
       <div className='landingPage'>
         <div className='landingPage__PostCard'>
@@ -17,8 +14,8 @@ class LandingPage extends Component {
           </div>
           <div className='landingPage__PostCard--Back'>
             <div className="landingPage__PostCard--BackText">
-              <p>Hey Internet Stranger,</p>
-              <p>Remember Postcards? That thing you always promise to send you mom on vacation and then you get there and you're like POSTAGE IS HOW MUCH?! Well why not make a digital post card?!</p>
+              <p className='greeting'>Hey Kind Stranger,</p>
+              <p>Remember Postcards? <br/> Those things you always promise to send your mom on vacation, but never do. <br/> With Post It, you can make a free digital postcard from the comfort of the internet instead!</p>
             </div>
           </div>
         </div>

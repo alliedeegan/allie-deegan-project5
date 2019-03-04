@@ -2,18 +2,143 @@
     text-align: center;
 }
 
-.getTextPage__Form {
-    margin: 0 auto;
-    border: 1px solid yellowgreen;
-    width: 50%;
+.getTextPage h2 {
+    font-family: 'Bungee', cursive;
+    letter-spacing: 3px;
+    font-size: 3rem;
+    color: #ef6461;
+    margin: 40px 0 0;
 }
 
+.getTextPage h3 {
+    font-size: 1.2rem;
+}
 
-/* .getTextPage label {
-    display: block;
-} */
+.getTextPage__Form {
+    margin: 0 auto;
+    width: 40%;
+}
 
-.getTextPage input[type='text']{
+.getTextPage__Form p {
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.getTextPage__Form--Radio {
+    text-align: center;
+    margin: 0px 0px 20px;
+}
+
+.getTextPage__Form--Radio label {
+    margin-right: 20px;
+    font-size: 1.2rem;
+    color: #ef6461;
+}
+
+.getTextPage__Form--Radio label:last-child{
+    margin-right: 0px;
+}
+
+input[type='radio'] {
+    margin-right: 5px;
+}
+
+.getTextPage label span {
+    font-size: 1.2rem;
+    color: #ef6461;
+}
+
+.getTextPage input[type='text'] {
     width: 100%;
+    margin: 0 0 20px;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: 2px solid #ef6461;
+    border-radius: 5px;
+    background: #f7f0f0;
+}
+
+.getTextPage input[type='text']::placeholder { 
+    color: #484349;
+    font-size: 0.8rem; 
+}
+
+.getTextPage input[type='submit'] {
+    border: none;
+    border-radius: 5px;
+    background: #ef6461;
+    padding: 10px 15px;
+    color: #f7f0f0;
     display: block;
+    margin: 10px auto 60px;
+    font-size: 1.2rem;
+    transition: all 0.5s;
+}
+
+.getTextPage input[type='text']:focus {
+    border: 2px solid #5bd8f7;
+}
+
+.getTextPage input[type='submit']:focus,
+.getTextPage input[type='submit']:hover {
+   background: #5bd8f7;
+}
+
+@media (max-width: 1200px) {
+    .getTextPage__Form {
+        width: 50%;
+    }
+}
+
+@media (max-width: 970px) {
+    .getTextPage__Form {
+        width: 60%;
+    }
+}
+
+@media (max-width: 800px) {
+    .getTextPage h2 {
+        font-size: 2.5rem;
+    }
+    .getTextPage h3 {
+        font-size: 1rem;
+    }
+    .getTextPage__Form {
+        width: 75%;
+    }
+}
+
+@media (max-width: 650px) {
+    .getTextPage h2 {
+        font-size: 2rem;
+    }
+    .getTextPage__Form {
+        width: 85%;
+    }
+}
+
+@media (max-width: 570px) {
+    .getTextPage h2 {
+        font-size: 1.8rem;
+    }
+    .getTextPage__Form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .getTextPage__Form--Radio label {
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+    .getTextPage form label {
+        font-size: 0.8rem;
+    }
+    .getTextPage label span {
+        font-size: 1rem;
+    }
+    .getTextPage input[type='text']::placeholder { 
+        font-size: 0.7rem; 
+    }
 }

@@ -28,7 +28,7 @@ class GetPhotosPage extends Component {
         format: 'json',
         orientation: 'landscape',
         per_page: '8',
-        query: 'wilderness'
+        query: 'mountains'
       }
     }).then(response => {
       console.log(response);
