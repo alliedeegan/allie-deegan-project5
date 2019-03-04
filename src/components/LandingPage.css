@@ -79,13 +79,12 @@
     padding: 10px 20px;
     color: #f7f0f0;
     text-transform: capitalize;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
 .start:hover {
-    background: #f7f0f0;
-    border: 2px solid #ef6461;
-    color: #ef6461;
+    background: #5bd8f7;
+    border: 2px solid #5bd8f7;
 }
 
 .start:focus {
