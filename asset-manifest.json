@@ -1,15 +1,15 @@
 {
-  "main.css": "/my-app/static/css/main.13559ef9.chunk.css",
-  "main.js": "/my-app/static/js/main.2b3ed5ce.chunk.js",
-  "main.js.map": "/my-app/static/js/main.2b3ed5ce.chunk.js.map",
-  "runtime~main.js": "/my-app/static/js/runtime~main.caff8f44.js",
-  "runtime~main.js.map": "/my-app/static/js/runtime~main.caff8f44.js.map",
-  "static/js/2.6dcbe4b3.chunk.js": "/my-app/static/js/2.6dcbe4b3.chunk.js",
-  "static/js/2.6dcbe4b3.chunk.js.map": "/my-app/static/js/2.6dcbe4b3.chunk.js.map",
-  "index.html": "/my-app/index.html",
-  "precache-manifest.36ca89ee49de5acabfd75e23bab71027.js": "/my-app/precache-manifest.36ca89ee49de5acabfd75e23bab71027.js",
-  "service-worker.js": "/my-app/service-worker.js",
-  "static/css/main.13559ef9.chunk.css.map": "/my-app/static/css/main.13559ef9.chunk.css.map",
-  "static/media/nitish-meena-37746-unsplash.jpg": "/my-app/static/media/nitish-meena-37746-unsplash.9c496175.jpg",
-  "static/media/DisplayPostCardPage.css": "/my-app/static/media/postCardBackQuick.a28a420a.jpg"
+  "main.css": "/allie-deegan-project5/static/css/main.a0e0e54d.chunk.css",
+  "main.js": "/allie-deegan-project5/static/js/main.80d4d48d.chunk.js",
+  "main.js.map": "/allie-deegan-project5/static/js/main.80d4d48d.chunk.js.map",
+  "runtime~main.js": "/allie-deegan-project5/static/js/runtime~main.afdfc6d2.js",
+  "runtime~main.js.map": "/allie-deegan-project5/static/js/runtime~main.afdfc6d2.js.map",
+  "static/js/2.6dcbe4b3.chunk.js": "/allie-deegan-project5/static/js/2.6dcbe4b3.chunk.js",
+  "static/js/2.6dcbe4b3.chunk.js.map": "/allie-deegan-project5/static/js/2.6dcbe4b3.chunk.js.map",
+  "index.html": "/allie-deegan-project5/index.html",
+  "precache-manifest.a726c857d46883e277a3ae9d008be3b5.js": "/allie-deegan-project5/precache-manifest.a726c857d46883e277a3ae9d008be3b5.js",
+  "service-worker.js": "/allie-deegan-project5/service-worker.js",
+  "static/css/main.a0e0e54d.chunk.css.map": "/allie-deegan-project5/static/css/main.a0e0e54d.chunk.css.map",
+  "static/media/nitish-meena-37746-unsplash.jpg": "/allie-deegan-project5/static/media/nitish-meena-37746-unsplash.9c496175.jpg",
+  "static/media/DisplayPostCardPage.css": "/allie-deegan-project5/static/media/postCardBackQuick.a28a420a.jpg"
 }
