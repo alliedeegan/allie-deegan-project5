@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/allie-deegan-project5/precache-manifest.88fb4fbe9c9e5a1a0a45064b005ac8a7.js"
+  "/allie-deegan-project5/precache-manifest.944db72b8085edc47fbfe8c562c5a686.js"
 );
 
 workbox.clientsClaim();
