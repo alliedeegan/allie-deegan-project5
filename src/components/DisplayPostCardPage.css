@@ -32,6 +32,18 @@
 	overflow: hidden;
 }
 
+.displayPage__PostCard:focus {
+    outline: none;
+}
+
+.displayPage__PostCard:focus-within .displayPage__PostCard--Front {
+    transform:rotateY(-180deg);
+}
+
+.displayPage__PostCard:focus-within .displayPage__PostCard--Back {
+    transform:rotateY(0);
+}
+
 .displayPage__PostCard:hover .displayPage__PostCard--Front {
     transform:rotateY(-180deg);
 }

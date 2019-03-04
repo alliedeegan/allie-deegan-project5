@@ -12,7 +12,7 @@ class DisplayPostCardPage extends Component {
                     <h2>Your Postcard!</h2>
                 </div>
 
-                <div className='displayPage__PostCard'>
+                <div className='displayPage__PostCard' tabIndex='0'>
                     <div className='displayPage__PostCard--Front'>
                         <img src={this.props.passedState.chosenPhoto.urls.regular} alt={this.props.passedState.chosenPhoto.description}/>       
                     </div>
