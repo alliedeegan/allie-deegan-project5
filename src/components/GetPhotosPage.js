@@ -91,14 +91,14 @@ class GetPhotosPage extends Component {
               {
                 this.state.resultData.map(data =>{
                   return(
-                    <div key={data.id} className='photoOption'> 
-                      <div className="photoOption__Image" onClick={() => { this.props.handleSelectPhoto(data); { this.props.handleNewPage('getTextPage') } }}>
+                    <div key={data.id} className='photoOption' > 
+                      <a href='#' className="photoOption__Image" tabIndex='0' onClick={() => { this.props.handleSelectPhoto(data); { this.props.handleNewPage('getTextPage') } }}>
                         <img src={data.urls.regular} alt={data.description} />
                         <div className="photoOverlay">
                           <p>This one!</p>
                         </div>
-                      </div> 
-                      <a href={data.user.links.html} target='_blank'><i class="fas fa-camera-retro"></i> by {data.user.name}</a>
+                      </a> 
+                      <a href={data.user.links.html} target='_blank'><i className="fas fa-camera-retro"></i> by {data.user.name}</a>
                     </div>                    
                   )
                 })     
