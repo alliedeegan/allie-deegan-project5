@@ -6,7 +6,7 @@ class LandingPage extends Component {
   render(){
     return(
       <div className='landingPage'>
-        <div className='landingPage__PostCard'>
+        <div className='landingPage__PostCard' tabIndex='0'>
           <div className='landingPage__PostCard--Front'>
             <h1>Post it</h1>
             <p>Greetings from the internet!</p>

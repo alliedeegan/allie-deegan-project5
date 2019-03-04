@@ -30,6 +30,18 @@
 	overflow: hidden;
 }
 
+.landingPage__PostCard:focus {
+    outline: none;
+}
+
+.landingPage__PostCard:focus-within .landingPage__PostCard--Front {
+    transform:rotateY(-180deg);
+}
+
+.landingPage__PostCard:focus-within .landingPage__PostCard--Back {
+    transform:rotateY(0);
+}
+
 .landingPage__PostCard:hover .landingPage__PostCard--Front {
     transform:rotateY(-180deg);
 }
