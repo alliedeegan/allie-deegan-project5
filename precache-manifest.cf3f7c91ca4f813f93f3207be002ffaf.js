@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/allie-deegan-project5/static/js/runtime~main.afdfc6d2.js"
   },
   {
-    "revision": "80d4d48d443befe57ea0",
-    "url": "/allie-deegan-project5/static/js/main.80d4d48d.chunk.js"
+    "revision": "23cf90e6473351daaac5",
+    "url": "/allie-deegan-project5/static/js/main.23cf90e6.chunk.js"
   },
   {
     "revision": "6dcbe4b3cbdf39d670b3",
     "url": "/allie-deegan-project5/static/js/2.6dcbe4b3.chunk.js"
   },
   {
-    "revision": "80d4d48d443befe57ea0",
-    "url": "/allie-deegan-project5/static/css/main.a0e0e54d.chunk.css"
+    "revision": "23cf90e6473351daaac5",
+    "url": "/allie-deegan-project5/static/css/main.c35ba5ae.chunk.css"
   },
   {
-    "revision": "9e09c7494122f50b956d865f80db079a",
+    "revision": "b548d738313399b2c2108a89df4675b6",
     "url": "/allie-deegan-project5/index.html"
   }
 ];
