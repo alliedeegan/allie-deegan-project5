@@ -98,7 +98,7 @@ class GetPhotosPage extends Component {
                           <p>This one!</p>
                         </div>
                       </a> 
-                      <a href={data.user.links.html} target='_blank'><i className="fas fa-camera-retro"></i> by {data.user.name}</a>
+                      <p><a href={data.user.links.html} target='_blank'><i className="fas fa-camera-retro"></i> by {data.user.name}</a><a href="https://unsplash.com/">on Unsplash</a></p>
                     </div>                    
                   )
                 })     
