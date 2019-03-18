@@ -1,15 +1,15 @@
 {
-  "main.css": "/allie-deegan-project5/static/css/main.694fecd4.chunk.css",
-  "main.js": "/allie-deegan-project5/static/js/main.92dad0ed.chunk.js",
-  "main.js.map": "/allie-deegan-project5/static/js/main.92dad0ed.chunk.js.map",
-  "runtime~main.js": "/allie-deegan-project5/static/js/runtime~main.afdfc6d2.js",
-  "runtime~main.js.map": "/allie-deegan-project5/static/js/runtime~main.afdfc6d2.js.map",
-  "static/js/2.6dcbe4b3.chunk.js": "/allie-deegan-project5/static/js/2.6dcbe4b3.chunk.js",
-  "static/js/2.6dcbe4b3.chunk.js.map": "/allie-deegan-project5/static/js/2.6dcbe4b3.chunk.js.map",
-  "index.html": "/allie-deegan-project5/index.html",
-  "precache-manifest.0d1c5c5c17c48044578d6f96d7683475.js": "/allie-deegan-project5/precache-manifest.0d1c5c5c17c48044578d6f96d7683475.js",
-  "service-worker.js": "/allie-deegan-project5/service-worker.js",
-  "static/css/main.694fecd4.chunk.css.map": "/allie-deegan-project5/static/css/main.694fecd4.chunk.css.map",
-  "static/media/nitish-meena-37746-unsplash.jpg": "/allie-deegan-project5/static/media/nitish-meena-37746-unsplash.9c496175.jpg",
-  "static/media/DisplayPostCardPage.css": "/allie-deegan-project5/static/media/postCardBackQuick.a28a420a.jpg"
+  "main.css": "/post-it/static/css/main.a758624e.chunk.css",
+  "main.js": "/post-it/static/js/main.821a0c85.chunk.js",
+  "main.js.map": "/post-it/static/js/main.821a0c85.chunk.js.map",
+  "runtime~main.js": "/post-it/static/js/runtime~main.8ed8604f.js",
+  "runtime~main.js.map": "/post-it/static/js/runtime~main.8ed8604f.js.map",
+  "static/js/2.6dcbe4b3.chunk.js": "/post-it/static/js/2.6dcbe4b3.chunk.js",
+  "static/js/2.6dcbe4b3.chunk.js.map": "/post-it/static/js/2.6dcbe4b3.chunk.js.map",
+  "index.html": "/post-it/index.html",
+  "precache-manifest.d82ae8c9952ea64a2456d92c8d80bbaf.js": "/post-it/precache-manifest.d82ae8c9952ea64a2456d92c8d80bbaf.js",
+  "service-worker.js": "/post-it/service-worker.js",
+  "static/css/main.a758624e.chunk.css.map": "/post-it/static/css/main.a758624e.chunk.css.map",
+  "static/media/nitish-meena-37746-unsplash.jpg": "/post-it/static/media/nitish-meena-37746-unsplash.9c496175.jpg",
+  "static/media/DisplayPostCardPage.css": "/post-it/static/media/postCardBackQuick.a28a420a.jpg"
 }

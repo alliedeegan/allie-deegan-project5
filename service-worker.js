@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/allie-deegan-project5/precache-manifest.0d1c5c5c17c48044578d6f96d7683475.js"
+  "/post-it/precache-manifest.d82ae8c9952ea64a2456d92c8d80bbaf.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/allie-deegan-project5/index.html", {
+workbox.routing.registerNavigationRoute("/post-it/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
